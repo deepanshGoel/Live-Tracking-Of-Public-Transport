@@ -64,7 +64,7 @@ public class Adminlogin extends AppCompatActivity {
                     Toast.makeText(Adminlogin.this, "password length should be more than 6", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                if (!email.equals("tracker.exclusive@gmail.com")||!email.equals("admin@admin.com")){
+                if (!email.equals("admin@admin.com")){
                     Toast.makeText(Adminlogin.this, "You are not ADMIN !!!", Toast.LENGTH_SHORT).show();
                     admin_email.setText("");
                     admin_pass.setText("");
